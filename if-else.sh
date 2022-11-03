@@ -2,7 +2,7 @@
 
 
 # Below is multiline comment
-:'
+: '
 if [ expression ]
 then 
     statement1
