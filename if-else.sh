@@ -17,6 +17,17 @@ else
 fi
 '
 
+number=5
 
+if  [[ $number -eq 1 ]]
+then 
+    echo "Number is equal to 1"
 
+elif [[ $number -eq 2 ]]
+then
+    echo "Number is equal to 2"
 
+else
+    echo "Number is greater than 2"
+
+fi
