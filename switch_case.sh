@@ -11,19 +11,10 @@ case expression/variable in
 esac
 '
 
-
 REQUEST_TYPE="get"
 
 case $REQUEST_TYPE in
-    "get")
-        echo "GET request"
-        ;;
-    "post")
-        echo "POST request"
-        ;;
-    
-    *)
-        echo "Unknown"
-        ;;
+"get") echo "GET request" ;;
+"post") echo "POST request" ;;
+*) echo "Unknown" ;;
 esac
-
